@@ -3,9 +3,62 @@
 /* ===== NEXT WRITE GLOBAL STYLES, THEN USE MEDIA QUERIES FOR LAYOUT/STYLE ADJUSTMENTS ===== */
 /* ===== STARTER CSS BELOW FOR body AND p IS JUST AN EXAMPLE... YOU MAY DELETE IT ===== */
 
-body {
-    background: magenta;
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+html {
+    color: #2D2926;
+    background-color: #E7EABF;
 }
-p {
-    font-size: 2em;
+
+nav {
+    background-color: #95CA72;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.25em;
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+}
+
+nav h1 {
+    font-size: 3em;
+}
+
+nav li{
+    display: inline-flex;
+    list-style: none;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+nav a {
+    color: #2D2926;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.redText {
+    color: #CC0000;
+}
+
+main {
+    text-align: center;
+    justify-items: center;
+}
+
+main h2 {
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+}
+
+main p, #enter-quiz {
+    font-family: "DM Sans", Helvetica, sans-serif;
+}
+
+.img-placeholder {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
 }
