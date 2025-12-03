@@ -9,6 +9,12 @@
 html {
     color: #2D2926;
     background-color: #E7EABF;
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -44,21 +50,49 @@ nav a:hover {
     color: #CC0000;
 }
 
-main {
+main, footer {
     text-align: center;
     justify-items: center;
 }
 
-main h2 {
-    font-family: "Darumadrop One", Helvetica, sans-serif;
+main {
+    flex: 1;
+    min-height: 50vh;
 }
 
-main p, #enter-quiz {
+main h2 {
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+    font-size: 2.5em;
+
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+main p, #quiz-btn, footer {
     font-family: "DM Sans", Helvetica, sans-serif;
 }
 
+#quiz-btn {
+    font-size: 1.2em;
+}
+
+#quiz-btn:hover {
+    cursor: pointer;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.15);
+	transform: translate3D(0, -2px, 0);
+}
+
+footer {
+    background-color: #95CA72;
+    padding: 0.5em;
+    margin-top: 0;
+}
 .img-placeholder {
     height: 300px;
     width: 300px;
     background-color: gray;
+    margin: 1em 0;
+    
 }
