@@ -8,7 +8,7 @@
 
 html {
     color: #2D2926;
-    background-color: #E7EABF;
+    background-color: #D5DDAE;
     height: 100%;
 }
 body {
@@ -25,6 +25,7 @@ nav {
     padding: 0 1.25em;
     font-family: "Darumadrop One", Helvetica, sans-serif;
 }
+
 
 nav h1 {
     font-size: 3em;
@@ -46,7 +47,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.redText {
+.red-text {
     color: #CC0000;
 }
 
@@ -62,37 +63,343 @@ main {
 
 main h2 {
     font-family: "Darumadrop One", Helvetica, sans-serif;
-    font-size: 2.5em;
-
+    font-size: 3em;
+    margin-bottom: 0.2em;
 }
 
-main p {
+.main-text {
     font-size: 1.2em;
+    width: 30ch;
+}
+
+.about-text {
+    font-size: 1.2em;
+    width: 80vw;
 }
 
 main p, #quiz-btn, footer {
     font-family: "DM Sans", Helvetica, sans-serif;
 }
 
-#quiz-btn {
-    font-size: 1.2em;
+#quiz-btn, .next-btn, .back-btn, #retake-btn {
+    font-size: 1.5em;
+    background-color: #95CA72;
+    border: 1px solid #446131;
+    color: #446131;
+    padding: 0.25em 1em;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
-#quiz-btn:hover {
+#quiz-btn {
+    margin-top: 1em;
+}
+
+#quiz-btn a {
+    text-decoration: none;
+    color: #446131;
+    text-transform: uppercase;
+}
+
+#quiz-btn:hover, .next-btn:hover, .back-btn:hover, #retake-btn:hover {
     cursor: pointer;
     box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.15);
-	transform: translate3D(0, -2px, 0);
+	transform: translate3D(0, -3px, 0);
 }
 
 footer {
     background-color: #95CA72;
-    padding: 0.5em;
+    padding: 0.25em;
     margin-top: 0;
 }
-.img-placeholder {
-    height: 300px;
-    width: 300px;
-    background-color: gray;
-    margin: 1em 0;
+.img {
+    margin-top: 1em;
+    height: 400px;
+    width: 400px;
     
+}
+
+#quiz {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    background-color: #E7EABF;
+    border-radius: 25px;
+    width: 85vw;
+    padding: 0.05em 1em;
+    margin: 2.5em auto;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.result-card {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    border-radius: 25px;
+    width: 60vw;
+    margin: 2.5em auto;
+}
+
+.result-card h3 {
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+.question-number {
+    text-align: left;
+    margin-left: 0.5em;
+}
+
+.question-text {
+    text-align: left;
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+    font-size: 1.75em;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.answer-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5em;
+    margin-left: 2em;
+}
+
+.answer-label:hover {
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answer-text,  .result-card p {
+    margin-left: 0.5em;
+    font-size: 1.25em;
+}
+
+.quiz-buttons, .retake-quiz {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 0.5em;
+    gap: 0.25em;
+}
+
+.about-card {
+    background-color: #E7EABF;
+    border-radius: 25px;
+    width: 80vw;
+    padding: 1em 2em;
+    margin: 2.5em auto;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.about-card h2 {
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+#author-img {
+    height: 250px;
+    border: 2px solid #95CA72;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+#author-section {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#about-links h2 {
+    margin-bottom: 0.5em;
+}
+
+#about-links ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding: 0;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 100%;
+    gap: 1em;
+}
+
+#about-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #D5DDAE;
+    padding: 0.5em;
+    border: 4px solid #95CA72;
+    border-radius: 10px;
+    color: #2D2926;
+}
+
+#about-links li:hover {
+    cursor: pointer;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.15);
+	transform: translate3D(0, -3px, 0);
+    background-color: #95CA72;
+    text-decoration: underline;
+
+}
+
+#about-links a{
+    font-family: "Darumadrop One", Helvetica, sans-serif;
+    text-decoration: none;
+    color: #2D2926;
+}
+
+
+/* tablets and larger smartphones */
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav h1 {
+        font-size: 2.5em;
+    }
+
+    nav li{
+        font-size: 1.5em;
+    }
+
+    main h2 {
+        font-size: 2.25em;
+    } 
+
+    .main-text {
+        font-size: 1em;
+    }
+
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #quiz-btn, .next-btn, .back-btn, #retake-btn {
+        font-size: 1.25em;
+    }
+
+    .question-number {
+        font-size: 2em;
+    }
+
+    .question-text {
+        font-size: 1.5em;
+    }
+
+    .answer-text {
+        font-size: 1em;
+    }
+
+    .result-card h3 {
+        font-size: 2em;
+    }
+
+    .result-card p {
+        font-size: 1em;
+    }
+
+    .result-card .img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #author-img {
+        height: 250px;
+    }
+
+    #about-links ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
+    }
+
+    #about-links li {
+        font-size: 1.25em;
+    }
+
+}
+
+/* smaller smartphones */
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav h1 {
+        font-size: 2.25em;
+    }
+
+    nav li{
+        font-size: 1.25em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    } 
+
+    .main-text {
+        font-size: 0.8em;
+    }
+
+    .img {
+        height: 250px;
+        width: 250px;
+    }
+
+    #quiz-btn, .next-btn, .back-btn, #retake-btn {
+        font-size: 1em;
+    }
+
+    .question-number {
+        font-size: 1.75em;
+    }
+
+    .question-text {
+        font-size: 1.25em;
+    }
+
+    .answer-text {
+        font-size: 0.8em;
+    }
+
+    .result-card h3 {
+        font-size: 1.75em;
+    }
+
+    .result-card p {
+        font-size: 0.8em;
+    }
+
+    .result-card .img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #author-img {
+        height: 200px;
+    }
+
+    #about-links ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5em;
+    }
+
+    #about-links li {
+        font-size: 1em;
+    
+    }
+
 }
