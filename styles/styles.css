@@ -167,7 +167,7 @@ footer {
 
 .answer-label {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 0.5em;
     margin-left: 2em;
@@ -304,6 +304,10 @@ footer {
         font-size: 1.5em;
     }
 
+    input[type="radio"] {
+        transform: scale(0.8);
+    }
+
     .answer-text {
         font-size: 0.9em;
     }
@@ -379,6 +383,10 @@ footer {
 
     .question-text {
         font-size: 0.9em;
+    }
+
+      input[type="radio"] {
+        transform: scale(0.5);
     }
 
     .answer-text {
