@@ -289,9 +289,9 @@ footer {
     nav h1 {
         font-size: 2.5em;
     }
-
-    nav li{
-        font-size: 1.25em;
+    
+    .nav-links li{
+    font-size: 1em;
     }
 
     main h2 {
@@ -375,9 +375,10 @@ footer {
         font-size: 2.25em;
     }
 
-    nav li{
-        font-size: 0.5em;
+    .nav-links li{
+        font-size: 0.75em;
     }
+  
 
     main h2 {
         font-size: 2em;
