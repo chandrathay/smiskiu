@@ -258,12 +258,6 @@ footer {
 
 /* tablets and larger smartphones */
 @media screen and (max-width: 768px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
     nav h1 {
         font-size: 2.5em;
