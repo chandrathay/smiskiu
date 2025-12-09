@@ -115,11 +115,11 @@ const quizQuestions = [
         question: "Where are you most likely to be found?",
         answers: [
             { answer: "Fitrec 🏋", smiski: "hockey" },
-            { answer: "Marsh Plaza 🏫", smiski: "houseOfBlues" },
-            { answer: "Questrom 📖", smiski: "mugar" },
-            { answer: "GSU 🍽️", smiski: "lobster" },
+            { answer: "BU Beach 🏖️", smiski: "houseOfBlues" },
+            { answer: "Metcalf 🧑‍🔬", smiski: "mugar" },
+            { answer: "The Dining Hall 🍔", smiski: "lobster" },
             { answer: "Saxbys ☕", smiski: "pumpkinToss" },
-            { answer: "Your Dorm Room 🛏️", smiski: "bean" }
+            { answer: "Dorm Room 🛏️", smiski: "bean" }
         ]
     }
 ]
@@ -247,9 +247,19 @@ function loadQuestion() {
 
 function loadNextQuestion() {
     const selectedAnswer = document.querySelector('input[name="answer"]:checked');
-    
+    const questionCard = document.querySelector('.question-card');
+
     if (!selectedAnswer) {
-        alert('Please select an answer before proceeding!');
+        const error = document.querySelector('.error-message');
+        if (error) {
+            error.remove();
+        }
+        const errorMessage = document.createElement('p');
+        errorMessage.className = 'main-text';
+        errorMessage.id = 'error-message';
+        errorMessage.textContent = "Please select an answer before proceeding.";
+        const answersList = questionCard.querySelector('.answers-list');
+        questionCard.insertBefore(errorMessage, answersList);   
         return;
     }
     const answerSmiski = selectedAnswer.getAttribute('data-smiski');

@@ -74,7 +74,6 @@ footer a:hover {
 }
 
 
-
 main {
     flex: 1;
     min-height: 50vh;
@@ -181,6 +180,14 @@ footer {
     font-family: "Darumadrop One", Helvetica, sans-serif;
     font-size: 1.75em;
     margin-left: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#error-message {
+    margin-left: 2.25em;
+    color: #cc0000;
+    text-align: left;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
