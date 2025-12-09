@@ -11,6 +11,7 @@ html {
     background-color: #D5DDAE;
     height: 100%;
 }
+
 body {
     min-height: 100vh;
     display: flex;
@@ -25,7 +26,6 @@ nav {
     padding: 0 1.25em;
     font-family: "Darumadrop One", Helvetica, sans-serif;
 }
-
 
 nav h1 {
     font-size: 3em;
@@ -111,6 +111,7 @@ footer {
     background-color: #95CA72;
     padding: 0.25em;
     margin-top: 0;
+
 }
 .img {
     margin-top: 1em;
@@ -254,7 +255,6 @@ footer {
     text-decoration: none;
     color: #2D2926;
 }
-
 
 /* tablets and larger smartphones */
 @media screen and (max-width: 768px) {
@@ -408,5 +408,4 @@ footer {
     #about-links li {
         font-size: 1em;
     }
-
 }
