@@ -116,6 +116,7 @@ footer {
     margin-top: 1em;
     height: 400px;
     width: 400px;
+    border-radius: 50%
     
 }
 
@@ -281,7 +282,7 @@ footer {
     }
 
     .about-text {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .img {
@@ -291,6 +292,7 @@ footer {
 
     #quiz-btn, .next-btn, .back-btn, #retake-btn {
         font-size: 1.25em;
+    }
  
     .question-number {
         font-size: 2em;
@@ -327,13 +329,12 @@ footer {
     }
 
     #about-links li {
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
-
 }
 
 /* smaller smartphones */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     main {
         display: flex;
         flex-direction: column;
@@ -406,7 +407,6 @@ footer {
 
     #about-links li {
         font-size: 1em;
-    
     }
 
 }
