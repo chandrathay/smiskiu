@@ -361,7 +361,7 @@ footer {
     } 
 
     .main-text {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .about-text {
@@ -378,19 +378,19 @@ footer {
     }
 
     .question-number {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .question-text {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     input[type="radio"] {
-        transform: scale(0.3);
+        transform: scale(0.5);
     }
 
     .answer-text {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .result-card h3 {
@@ -398,7 +398,7 @@ footer {
     }
 
     .result-card p {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .result-card .img {

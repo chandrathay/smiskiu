@@ -9,7 +9,7 @@ const quizQuestions = [
             { answer: "Attending a live concert or music festival 🎶", smiski: "houseOfBlues" },
             { answer: "Staying in studying or catching up on work 📚", smiski: "mugar" },
             { answer: "Exploring the city and trying new restaurants 🏙️", smiski: "lobster" },
-            { answer: "Playing video games or board games with friends 🕹️", smiski: "pumpkinToss" },
+            { answer: "Playing video games with friends 🕹️", smiski: "pumpkinToss" },
             { answer: "Relaxing at home with a good book or movie 💤", smiski: "bean" }
         ]
     },
@@ -58,7 +58,7 @@ const quizQuestions = [
             { answer: "The researcher who gathers all the information 💻", smiski: "mugar" },
             { answer: "The suggester of new ideas and approaches 💡", smiski: "lobster" },
             { answer: "The motivator who keeps the team energized 🌟", smiski: "pumpkinToss" },
-            { answer: "The dependable who ensures everything gets done 🙌", smiski: "bean" }
+            { answer: "The dependable who ensures things gets done 🙌", smiski: "bean" }
         ]
     },
     {
