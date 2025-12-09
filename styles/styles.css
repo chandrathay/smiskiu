@@ -61,6 +61,14 @@ main, footer {
     justify-items: center;
 }
 
+footer a {
+    color: #2D2926;
+}
+
+footer a:hover {
+    color: #446131;
+}
+
 main {
     flex: 1;
     min-height: 50vh;
