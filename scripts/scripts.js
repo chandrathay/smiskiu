@@ -301,7 +301,7 @@ function showResults() {
     quizContainer.innerHTML = `
         <div class="result-card">
             <h2>Congrats!</h2>
-            <img src="images/${result.name}.jpg" alt="${result.name}" class="img"/>
+            <img src="images/${topSmiski}}.jpg" alt="${result.name}" class="img"/>
             <h2>You received ${result.name}!</h2>
             <p><i>"${result.tagline}"</i></p>
             <p>${result.description}</p>
