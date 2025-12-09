@@ -386,7 +386,7 @@ footer {
     }
 
       input[type="radio"] {
-        transform: scale(0.5);
+        transform: scale(0.3);
     }
 
     .answer-text {
