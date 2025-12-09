@@ -31,19 +31,24 @@ nav h1 {
     font-size: 3em;
 }
 
-nav li{
+.smiskiU a {
+    text-decoration: none;
+    color: #2D2926;
+}
+
+.nav-links li{
     display: inline-flex;
     list-style: none;
     padding: 1em;
     font-size: 1.5em;
 }
 
-nav a {
+.nav-links a {
     color: #2D2926;
     text-decoration: none;
 }
 
-nav a:hover {
+.nav-links a:hover {
     text-decoration: underline;
 }
 
