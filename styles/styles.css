@@ -306,7 +306,7 @@ footer {
         font-size: 0.8em;
     }
 
-    footer p {
+    .footer-text {
         font-size: 0.8em;
     }
 
@@ -393,7 +393,7 @@ footer {
         font-size: 0.5em;
     }
 
-     footer p {
+    .footer-text {
         font-size: 0.25em;
     }
 
