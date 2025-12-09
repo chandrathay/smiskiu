@@ -280,6 +280,10 @@ footer {
         font-size: 1em;
     }
 
+    .about-text {
+        font-size: 1em;
+    }
+
     .img {
         height: 300px;
         width: 300px;
@@ -287,8 +291,7 @@ footer {
 
     #quiz-btn, .next-btn, .back-btn, #retake-btn {
         font-size: 1.25em;
-    }
-
+ 
     .question-number {
         font-size: 2em;
     }
@@ -351,6 +354,10 @@ footer {
     } 
 
     .main-text {
+        font-size: 0.8em;
+    }
+
+    .about-text {
         font-size: 0.8em;
     }
 
