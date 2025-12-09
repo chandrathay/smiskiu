@@ -374,11 +374,11 @@ footer {
     }
 
     .question-number {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     .question-text {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .answer-text {
@@ -386,7 +386,7 @@ footer {
     }
 
     .result-card h3 {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     .result-card p {
