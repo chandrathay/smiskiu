@@ -77,6 +77,11 @@ main h2 {
     width: 80vw;
 }
 
+.main-text, .about-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main p, #quiz-btn, footer {
     font-family: "DM Sans", Helvetica, sans-serif;
 }
@@ -89,6 +94,9 @@ main p, #quiz-btn, footer {
     padding: 0.25em 1em;
     border-radius: 5px;
     text-transform: uppercase;
+    width: fit-content;
+    max-width: max-content;
+    white-space: nowrap
 }
 
 #quiz-btn {
@@ -285,7 +293,7 @@ footer {
     }
 
     #quiz-btn, .next-btn, .back-btn, #retake-btn {
-        font-size: 1.25em;
+        font-size: 1em;
     }
  
     .question-number {
@@ -297,7 +305,7 @@ footer {
     }
 
     .answer-text {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .result-card h3 {
@@ -305,7 +313,7 @@ footer {
     }
 
     .result-card p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .result-card .img {
@@ -349,11 +357,11 @@ footer {
     } 
 
     .main-text {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .about-text {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .img {
@@ -370,11 +378,11 @@ footer {
     }
 
     .question-text {
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .answer-text {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .result-card h3 {
@@ -382,7 +390,7 @@ footer {
     }
 
     .result-card p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .result-card .img {
